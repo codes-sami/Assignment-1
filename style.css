@@ -11,6 +11,11 @@
     border: none;
     border-radius: 9px;
     font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.common-btn:hover{
+    background-color: #4a76f1;
 }
 
 .text-center{
@@ -91,5 +96,18 @@ header{
 
 .hero-text p{
     font-size: 14px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 185px;
+    
+}
+
+.btn button{
+    padding: 14px 30px;
+    font-size: 14px;
+    font-weight: bold;
 }
 /* Header Section End */
