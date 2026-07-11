@@ -307,7 +307,7 @@ header {
   background-color: #1d4ed8;
   border: 1px solid #0d1b2a;
   border-radius: 8px;
-  padding: 10px 60px;
+  padding: 12px 53px;
   margin: 20px auto 0;
   display: block;
   cursor: pointer;
@@ -317,3 +317,116 @@ header {
   background-color: #4a76f1;
 }
 /* Price Section End */
+
+/* Schedule Section Start */
+#schedule {
+  font-family: "Inter", sans-serif;
+  padding: 60px 8%;
+  background-color: #0b1330;
+}
+
+.tittle,
+.sub-tittle {
+  text-align: center;
+}
+
+.tittle {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.sub-tittle {
+  color: #9aa5c9;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.days {
+  color: #9aa5c9;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 45px;
+  margin-bottom: 49px;
+}
+
+.days .active {
+  background-color: #2563eb;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.days span {
+  border: none;
+  border-radius: 999px;
+  background-color: #182047;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.schedule-container {
+  margin: 0 auto;
+  padding: 28px 100px;
+}
+
+.timeline-container {
+  position: relative;
+  padding-left: 40px;
+}
+
+.line {
+  position: absolute;
+  width: 2px;
+  background-color: #243066;
+  left: 9px;
+  top: 6px;
+  bottom: 6px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -40px;
+  top: 24px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #2563eb;
+}
+
+.timeline-card {
+  background-color: #141b3d;
+  border: 1px solid #232c54;
+  border-radius: 12px;
+  padding: 20px 24px;
+}
+
+.time {
+  color: #6d8cff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.time-head {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.time-speaker {
+  color: #8b96c0;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* Schedule Section End */
