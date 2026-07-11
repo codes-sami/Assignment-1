@@ -1,113 +1,165 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* Common Styles Start */
-.common-btn{
-    font-weight: bold;
-    background-color: #1D4ED8;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 9px;
-    font-family: "Inter", sans-serif;
-    cursor: pointer;
+.common-btn {
+  font-weight: bold;
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border: none;
+  border-radius: 9px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
 }
 
-.common-btn:hover{
-    background-color: #4a76f1;
+.common-btn:hover {
+  background-color: #4a76f1;
 }
 
-.text-center{
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
-.section-measurement{
-    padding: 80px 8%;
+.section-measurement {
+  padding: 80px 8%;
 }
 /* Common Styles End */
 
 /* Nav Section Start */
-nav{
-    display: flex;
-    justify-content: space-around;
-    padding: 18px 0;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 0;
+  align-items: center;
 }
 
-.menu ul{
-    display: flex;
-    gap: 23px;
+.menu ul {
+  display: flex;
+  gap: 23px;
 }
 
-.menu ul li{
-    list-style: none;
+.menu ul li {
+  list-style: none;
 }
 
-.menu ul li a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #575757;
-    font-family: "Arimo", sans-serif;
+.menu ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #575757;
+  font-family: "Arimo", sans-serif;
 }
 
-.nav-btn button{
-    padding: 12px 12px;
-    font-weight: bold;
-    font-size: 14px;
+.nav-btn button {
+  padding: 12px 12px;
+  font-weight: bold;
+  font-size: 14px;
 }
 /* Nav Section End */
 
 /* Header Section Start */
-header{
-    background-image:linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0.85),
-        rgba(0, 0, 0, 0.4),
-        rgba(0, 0, 0, 0.2)
-    ),  url('./assets/banner.jpg');
-    height: 90vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    font-family: "Inter", sans-serif;
-    
+header {
+  background-image:
+    linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Inter", sans-serif;
 }
 
-.hero-container{
-    height: 100%;
-    
+.hero-container {
+  height: 100%;
 }
 
-.hero-text{
-    color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 22px;
-    padding-top: 58px;
-    
+.hero-text {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 22px;
+  padding-top: 58px;
 }
 
-.hero-text h2{
-    font-size: 60px;
-    font-weight: bold;
+.hero-text h2 {
+  font-size: 60px;
+  font-weight: bold;
 }
 
-.hero-text p{
-    font-size: 14px;
+.hero-text p {
+  font-size: 14px;
 }
 
-.btn{
-    display: flex;
-    justify-content: center;
-    margin-top: 185px;
-    
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 185px;
 }
 
-.btn button{
-    padding: 14px 30px;
-    font-size: 14px;
-    font-weight: bold;
+.btn button {
+  padding: 14px 30px;
+  font-size: 14px;
+  font-weight: bold;
 }
 /* Header Section End */
+
+/* Speaker Section Start */
+#speaker {
+  font-family: "Inter", sans-serif;
+  margin: 60px 8%;
+}
+
+.speaker-container h2 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #000102;
+  margin-bottom: 35px;
+}
+
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.box {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+
+.box-img img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.box-text {
+  display: grid;
+  gap: 6px;
+  padding: 17px;
+}
+
+.box-text h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0d1b2a;
+}
+
+.box-text .position {
+  font-size: 12px;
+  font-weight: 400;
+  color: #575757;
+}
+
+.box-text .dept {
+  font-weight: 600;
+  font-size: 10px;
+  color: #2563eb;
+}
+/* Speaker Section End */
