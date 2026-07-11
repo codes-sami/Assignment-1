@@ -162,4 +162,11 @@ header {
   font-size: 10px;
   color: #2563eb;
 }
+
+.more{
+  font-size: 14px;
+  padding: 13px 25px;
+  margin: 36px auto;
+  display: block;
+}
 /* Speaker Section End */
