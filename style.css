@@ -430,3 +430,39 @@ header {
   font-weight: 400;
 }
 /* Schedule Section End */
+
+/* Footer Section Start */
+footer {
+  font-family: "Inter", sans-serif;
+  padding: 60px 8%;
+  background-color: #112459;
+}
+
+.footer-container p {
+  color: #ffffff;
+  opacity: 40%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icon a {
+  color: #ffffff;
+  opacity: 40%;
+  font-size: 18px;
+}
+
+hr {
+  margin: 20px 0;
+  color: #ffffff;
+  opacity: 40%;
+}
+/* Footer Section End */
